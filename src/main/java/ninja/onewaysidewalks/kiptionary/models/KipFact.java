@@ -1,7 +1,11 @@
 package ninja.onewaysidewalks.kiptionary.models;
 
-/**
- * Created by sraghunath on 10/31/15.
- */
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class KipFact {
+    //What to show
+    private String fact;
 }

@@ -1,0 +1,10 @@
+RandomFactIntent random fact
+RandomFactIntent tell me something about kip
+RandomFactIntent lay it on me
+
+EndIntent I am satisfied with my kip care
+
+HelpIntent repeat
+HelpIntent help
+HelpIntent what do I do
+HelpIntent what do I say

@@ -1,0 +1,30 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/*
+!.idea/runConfigurations
+*.iml
+*.iws
+classes/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Gradle
+.gradle/
+out/
+build/
+results/
+
+# Java Dump
+*.hprof
+
+# pom stuff
+target/
