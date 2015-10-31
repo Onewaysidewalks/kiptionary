@@ -1,6 +1,7 @@
 RandomFactIntent random fact
 RandomFactIntent tell me something about kip
 RandomFactIntent lay it on me
+RandomFactIntent for a random fact
 
 EndIntent I am satisfied with my kip care
 

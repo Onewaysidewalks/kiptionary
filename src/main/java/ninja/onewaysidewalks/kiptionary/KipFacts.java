@@ -1,10 +1,13 @@
 package ninja.onewaysidewalks.kiptionary;
 
 import ninja.onewaysidewalks.kiptionary.models.KipFact;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Random;
 
 public class KipFacts {
+    private static final Logger log = LoggerFactory.getLogger(KipFacts.class);
 
     private static final Random RANDOM_GENERATOR = new Random();
 
@@ -19,7 +22,9 @@ public class KipFacts {
 
 
     public static KipFact getRandomFact() {
-        return FACTS[RANDOM_GENERATOR.nextInt() % FACTS.length];
+        int index = RANDOM_GENERATOR.nextInt(8) % FACTS.length;
+        log.info("Using index {}", index);
+        return FACTS[index];
     }
 
 }
